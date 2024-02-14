@@ -1,0 +1,47 @@
+body {
+    background-color: #aaa0a0; /* Hellgrauer Hintergrund */
+    font-family: Arial, sans-serif; /* Standardschriftart */
+    margin: 0;
+    padding: 0;
+}
+ 
+h1 {
+    color: #eb413b; /* Grüne Überschrift */
+}
+ 
+/* Optional: Stil für Links */
+a {
+    color: #c75d17; /* Grüner Link */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+ 
+a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover */
+}
+table {
+    border-collapse: collapse; /* Zusammenführen der Zellenränder */
+}
+ 
+td, th {
+    border: 1px solid #000; /* Schwarzer Rand um jede Zelle */
+    padding: 8px; /* Abstand innerhalb der Zellen */
+}
+ 
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Hintergrundfarbe für gerade Zeilen */
+}
+ 
+tr:nth-child(odd) {
+    background-color: #fff; /* Hintergrundfarbe für ungerade Zeilen */
+}
+ 
+td:nth-child(even), th:nth-child(even) {
+    background-color: #cceeff; /* Hintergrundfarbe für Zellen in geraden Spalten */
+}
+ 
+td:nth-child(odd), th:nth-child(odd) {
+    background-color: #fbccff; /* Hintergrundfarbe für Zellen in ungeraden Spalten */
+}
+p {
+    color: #008000; /* Grüne Farbe für Absätze */
+}
