@@ -1,17 +1,22 @@
+/*Der sinn der styles.css ist, die Farben, Die Schriftgröße/-art, und das aussehen
+aller elemente in der HTML-Datei zu gestalten. 
+
+/* Der Hintegrund ist Weiß)
+
 body {
-    background-color: #aaa0a0; /* Hellgrauer Hintergrund */
+    background-color: #f5f5f5; /* Hellgrauer Hintergrund */
     font-family: Arial, sans-serif; /* Standardschriftart */
     margin: 0;
     padding: 0;
 }
  
 h1 {
-    color: #eb413b; /* Grüne Überschrift */
+    color: #000000; /* Grüne Überschrift */
 }
  
 /* Optional: Stil für Links */
 a {
-    color: #c75d17; /* Grüner Link */
+    color: #000000; /* Grüner Link */
     text-decoration: none; /* Keine Unterstreichung */
 }
  
@@ -23,25 +28,25 @@ table {
 }
  
 td, th {
-    border: 1px solid #000; /* Schwarzer Rand um jede Zelle */
+    border: 1px solid #000000; /* Schwarzer Rand um jede Zelle */
     padding: 8px; /* Abstand innerhalb der Zellen */
 }
  
 tr:nth-child(even) {
-    background-color: #f2f2f2; /* Hintergrundfarbe für gerade Zeilen */
+    background-color: #000000; /* Hintergrundfarbe für gerade Zeilen */
 }
  
 tr:nth-child(odd) {
-    background-color: #fff; /* Hintergrundfarbe für ungerade Zeilen */
+    background-color: #000000; /* Hintergrundfarbe für ungerade Zeilen */
 }
  
 td:nth-child(even), th:nth-child(even) {
-    background-color: #cceeff; /* Hintergrundfarbe für Zellen in geraden Spalten */
+    background-color: #00ff4c; /* Hintergrundfarbe für Zellen in geraden Spalten */
 }
  
 td:nth-child(odd), th:nth-child(odd) {
-    background-color: #fbccff; /* Hintergrundfarbe für Zellen in ungeraden Spalten */
+    background-color: #ff0000; /* Hintergrundfarbe für Zellen in ungeraden Spalten */
 }
 p {
-    color: #008000; /* Grüne Farbe für Absätze */
+    color: #000000; /* Grüne Farbe für Absätze */
 }
